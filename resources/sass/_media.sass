@@ -1,0 +1,262 @@
+@import "vars"
+/*==========  Desktop First  ==========*/
+
+// ≥1200px
++media-breakpoint-down(lg)
+	.head
+		&__ico
+			display: none
+	.consalt .container:after
+		display: none
+	.gallery
+		&:before
+			display: none
+
+// ≥992px
++media-breakpoint-down(md)
+	.nav
+		&-list
+			&__item
+				font-size: 14px
+	.head
+		min-height: inherit
+		background: linear-gradient(29.03deg, #CCCCCC -23.4%, rgba(255, 255, 255, 0) 91.89%)
+		&:before
+			display: none
+		&__note
+			font-size: 70px
+			&_bottom
+				right: 20px
+				bottom: 0
+		&__btn
+			font-size: 14px
+	.partners
+		&:before, &:after
+			display: none
+		&__ttl
+			padding: 0
+			font-size: 30px
+			&:before
+				display: none
+		&__ico
+			margin-top: 20px
+	.gallery
+		&__img
+			max-width: inherit
+			margin: 0 auto 20px
+		&-slider
+			padding: 0 60px
+			.slick-arrow
+				bottom: 50%
+				transform: translateY(25%)
+	.foot
+		&-soc
+			flex-direction: column
+			&__link
+				&:first-child
+					margin-bottom: 10px
+
+// ≥768px
++media-breakpoint-down(sm)
+	.nav
+		background-color: #fff
+		&-mob
+			flex-direction: column-reverse !important
+			max-height: 0
+			min-height: 0
+			transition: all .3s ease
+			overflow: hidden
+			&.active
+				max-height: 500px
+			&__btn
+				float: right
+				width: 40px
+		&-list
+			flex-direction: column
+			margin-bottom: 20px
+			&__item
+				font-size: 18px
+				&:first-child
+					margin-left: auto
+				&:last-child
+					margin-right: auto
+		&__wrap
+			width: auto
+			flex-direction: column
+		&-lang
+			margin: 20px auto
+	.head
+		&__note
+			display: none
+		&__ttl
+			margin: 0 auto 50px
+			text-align: center
+		&-slider
+			margin-bottom: 20px
+		&__btn
+			margin: 0 auto 50px
+		&-img
+			padding-right: 0
+			padding-bottom: 40px
+			&__slide
+				img
+					margin: 0 auto
+			.slick-dots
+				display: flex
+				top: inherit
+				bottom: 0
+				right: 50%
+				transform: translate(50%, 0)
+				li
+					margin-bottom: 0
+					margin-right: 10px
+					&:last-child
+						margin-right: 0
+	.for
+		&__ttl
+			font-size: 30px
+		&-item
+			&__ttl
+				margin-top: -20px
+	.calc
+		&__flex
+			&_normal
+				flex-direction: column
+				background-color: transparent
+				border: none
+				border-radius: none
+			.rline
+				width: 100%
+				max-width: 240px
+				border-radius: 30px
+				& + .rline
+					margin-top: 20px
+					&:before
+						display: none
+				input
+					display: block
+					width: 100%
+					background-color: transparent
+					padding: 10px 20px
+					border-radius: 30px
+		&-btn
+			width: 100%
+			max-width: 280px
+			margin: 20px auto 0
+	.about
+		&__img
+			margin: 40px auto 0
+	.consalt
+		.container
+			border-radius: 0
+			&:before
+				border-radius: 0
+		&__content
+			margin: 0 auto
+	.partners
+		.container.posa
+			position: static
+			transform: inherit
+		&__ttl
+			margin-bottom: 40px
+		&-item
+			&_i3
+				margin-top: 20px
+			&_i4
+				margin-top: -40px
+			&_i5
+				margin-top: 20px
+			&_i6
+				margin-top: 20px
+			&_i7
+				margin-top: -170px
+	.docs
+		padding-bottom: 30px
+		&-item
+			margin-bottom: 20px
+	.foot
+		&__ttl
+			margin: 0 auto 40px
+		&-item
+			width: fit-content
+			margin: 40px 0 0
+		&-map
+			margin-top: 40px
+			height: 350px
+			iframe
+				height: 350px
+		&-soc
+			flex-direction: row
+			&__link
+				&:first-child
+					margin-bottom: 0
+
+// ≥576px
++media-breakpoint-down(xs)
+	.for
+		&__ttl
+			font-size: 24px
+	.catalog
+		&__ttl
+			margin: 0 auto
+			&:before
+				display: none
+		&__txt
+			text-align: center
+		&-item
+			padding: 15px 30px
+			line-height: 1
+			span
+				padding-left: 0
+				text-align: center
+				&:before
+					display: none
+	.calc
+		.container
+			padding: 20px
+			border-radius: inherit
+			&:before
+				border-radius: inherit
+		&__ttl
+			text-align: center
+		&__flex
+			flex-direction: column
+			.rline
+				max-width: 280px
+		&-field
+			width: 100%
+			max-width: 280px
+			margin: 0 auto 5px
+			input
+				max-width: inherit
+			&__price
+				max-width: inherit
+				padding: 12px
+				input
+					width: 100px
+	.about
+		&:before
+			display: none
+		&__ttl
+			text-align: center
+	.consalt
+		background-size: cover
+		.container
+			background-position: center
+		&__flex
+			flex-direction: column
+		&-field
+			&__input
+				max-width: inherit
+	.gallery
+		background: none
+		&__img
+			max-width: 220px
+	.foot
+		&__logo
+			max-width: 90px
+			margin-bottom: 10px
+	.dev
+		&-logo
+			width: 70px
+
