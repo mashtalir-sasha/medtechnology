@@ -260,7 +260,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<img srcset="/img/catalog/1.jpg 1x, /img/catalog/1@2x.jpg 2x" alt="img" class="cart__img" loading="lazy">
 							</picture>
 							<h4 class="cart__ttl">{{ trans('main.cart1') }}</h4>
-							<img src="/img/video_preview.jpg" alt="video" class="cart__video" loading="lazy">
+							<div class="cart__video">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/C1wJPOwBMo4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+							</div>
 							<a href="#modal3" class="cart__btn fancybox" data-link="https://drive.google.com/file/d/1MExtYnsGF3JTykHXtOJcwnf7ERu46rKF/view?ts=60792e06">{{ trans('main.cart-btn') }}</a>
 						</div>
 					</div>
@@ -271,7 +273,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<img srcset="/img/catalog/2.jpg 1x, /img/catalog/2@2x.jpg 2x" alt="img" class="cart__img" loading="lazy">
 							</picture>
 							<h4 class="cart__ttl">{{ trans('main.cart2') }}</h4>
-							<img src="/img/video_preview.jpg" alt="video" class="cart__video" loading="lazy">
+							<div class="cart__video">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/7wMgsW-E4Fo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+							</div>
 							<a href="#modal3" class="cart__btn fancybox" data-link="https://drive.google.com/file/d/1MExtYnsGF3JTykHXtOJcwnf7ERu46rKF/view?ts=60792e06">{{ trans('main.cart-btn') }}</a>
 						</div>
 					</div>
@@ -282,7 +286,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<img srcset="/img/catalog/3.jpg 1x, /img/catalog/3@2x.jpg 2x" alt="img" class="cart__img" loading="lazy">
 							</picture>
 							<h4 class="cart__ttl">{{ trans('main.cart3') }}</h4>
-							<img src="/img/video_preview.jpg" alt="video" class="cart__video" loading="lazy">
+							<div class="cart__video">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/8VI_nNqakRE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+							</div>
 							<a href="#modal3" class="cart__btn fancybox" data-link="https://drive.google.com/file/d/1MExtYnsGF3JTykHXtOJcwnf7ERu46rKF/view?ts=60792e06">{{ trans('main.cart-btn') }}</a>
 						</div>
 					</div>
@@ -293,7 +299,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<img srcset="/img/catalog/4.jpg 1x, /img/catalog/4@2x.jpg 2x" alt="img" class="cart__img" loading="lazy">
 							</picture>
 							<h4 class="cart__ttl">{{ trans('main.cart4') }}</h4>
-							<img src="/img/video_preview.jpg" alt="video" class="cart__video" loading="lazy">
+							<!-- <div class="cart__video">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/C1wJPOwBMo4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+							</div> -->
 							<a href="#modal3" class="cart__btn fancybox" data-link="https://drive.google.com/file/d/1MExtYnsGF3JTykHXtOJcwnf7ERu46rKF/view?ts=60792e06">{{ trans('main.cart-btn') }}</a>
 						</div>
 					</div>
@@ -304,7 +312,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<img srcset="/img/catalog/5.jpg 1x, /img/catalog/5@2x.jpg 2x" alt="img" class="cart__img" loading="lazy">
 							</picture>
 							<h4 class="cart__ttl">{{ trans('main.cart5') }}</h4>
-							<img src="/img/video_preview.jpg" alt="video" class="cart__video" loading="lazy">
+							<div class="cart__video">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/HYXA89_mz5c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+							</div>
 							<a href="#modal3" class="cart__btn fancybox" data-link="https://drive.google.com/file/d/1MExtYnsGF3JTykHXtOJcwnf7ERu46rKF/view?ts=60792e06">{{ trans('main.cart-btn') }}</a>
 						</div>
 					</div>
@@ -315,7 +325,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<img srcset="/img/catalog/6.jpg 1x, /img/catalog/6@2x.jpg 2x" alt="img" class="cart__img" loading="lazy">
 							</picture>
 							<h4 class="cart__ttl">{{ trans('main.cart6') }}</h4>
-							<img src="/img/video_preview.jpg" alt="video" class="cart__video" loading="lazy">
+							<div class="cart__video">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/1oO1LYnaq4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+							</div>
 							<a href="#modal3" class="cart__btn fancybox" data-link="https://drive.google.com/file/d/1MExtYnsGF3JTykHXtOJcwnf7ERu46rKF/view?ts=60792e06">{{ trans('main.cart-btn') }}</a>
 						</div>
 					</div>
@@ -326,7 +338,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<img srcset="/img/catalog/7.jpg 1x, /img/catalog/7@2x.jpg 2x" alt="img" class="cart__img" loading="lazy">
 							</picture>
 							<h4 class="cart__ttl">{{ trans('main.cart7') }}</h4>
-							<img src="/img/video_preview.jpg" alt="video" class="cart__video" loading="lazy">
+							<!-- <div class="cart__video">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/C1wJPOwBMo4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+							</div> -->
 							<a href="#modal3" class="cart__btn fancybox" data-link="https://drive.google.com/file/d/1MExtYnsGF3JTykHXtOJcwnf7ERu46rKF/view?ts=60792e06">{{ trans('main.cart-btn') }}</a>
 						</div>
 					</div>
@@ -337,7 +351,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<img srcset="/img/catalog/8.jpg 1x, /img/catalog/8@2x.jpg 2x" alt="img" class="cart__img" loading="lazy">
 							</picture>
 							<h4 class="cart__ttl">{{ trans('main.cart8') }}</h4>
-							<img src="/img/video_preview.jpg" alt="video" class="cart__video" loading="lazy">
+							<div class="cart__video">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/mId5fbQMGvU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+							</div>
 							<a href="#modal3" class="cart__btn fancybox" data-link="https://drive.google.com/file/d/1MExtYnsGF3JTykHXtOJcwnf7ERu46rKF/view?ts=60792e06">{{ trans('main.cart-btn') }}</a>
 						</div>
 					</div>
@@ -367,7 +383,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<img srcset="/img/catalog2/1.jpg 1x, /img/catalog2/1@2x.jpg 2x" alt="img" class="cart__img" loading="lazy">
 							</picture>
 							<h4 class="cart__ttl">{!! trans('main.cart9') !!}</h4>
-							<img src="/img/video_preview.jpg" alt="video" class="cart__video" loading="lazy">
+							
 							<a href="#modal3" class="cart__btn fancybox" data-link="https://drive.google.com/file/d/1w9jBPPpKKjhvbDDJNx_5dty4xST-RWD3/view?usp=drivesdk">{{ trans('main.cart-btn') }}</a>
 						</div>
 					</div>
@@ -378,7 +394,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<img srcset="/img/catalog2/2.jpg 1x, /img/catalog2/2@2x.jpg 2x" alt="img" class="cart__img" loading="lazy">
 							</picture>
 							<h4 class="cart__ttl">{!! trans('main.cart10') !!}</h4>
-							<img src="/img/video_preview.jpg" alt="video" class="cart__video" loading="lazy">
+							
 							<a href="#modal3" class="cart__btn fancybox" data-link="https://drive.google.com/file/d/1w9jBPPpKKjhvbDDJNx_5dty4xST-RWD3/view?usp=drivesdk">{{ trans('main.cart-btn') }}</a>
 						</div>
 					</div>
@@ -389,7 +405,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<img srcset="/img/catalog2/3.jpg 1x, /img/catalog2/3@2x.jpg 2x" alt="img" class="cart__img" loading="lazy">
 							</picture>
 							<h4 class="cart__ttl">{!! trans('main.cart11') !!}</h4>
-							<img src="/img/video_preview.jpg" alt="video" class="cart__video" loading="lazy">
+							
 							<a href="#modal3" class="cart__btn fancybox" data-link="https://drive.google.com/file/d/1w9jBPPpKKjhvbDDJNx_5dty4xST-RWD3/view?usp=drivesdk">{{ trans('main.cart-btn') }}</a>
 						</div>
 					</div>
@@ -400,7 +416,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<img srcset="/img/catalog2/4.jpg 1x, /img/catalog2/4@2x.jpg 2x" alt="img" class="cart__img" loading="lazy">
 							</picture>
 							<h4 class="cart__ttl">{!! trans('main.cart12') !!}</h4>
-							<img src="/img/video_preview.jpg" alt="video" class="cart__video" loading="lazy">
+							
 							<a href="#modal3" class="cart__btn fancybox" data-link="https://drive.google.com/file/d/1w9jBPPpKKjhvbDDJNx_5dty4xST-RWD3/view?usp=drivesdk">{{ trans('main.cart-btn') }}</a>
 						</div>
 					</div>
@@ -411,7 +427,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<img srcset="/img/catalog2/5.jpg 1x, /img/catalog2/5@2x.jpg 2x" alt="img" class="cart__img" loading="lazy">
 							</picture>
 							<h4 class="cart__ttl">{!! trans('main.cart13') !!}</h4>
-							<img src="/img/video_preview.jpg" alt="video" class="cart__video" loading="lazy">
+							
 							<a href="#modal3" class="cart__btn fancybox" data-link="https://drive.google.com/file/d/1w9jBPPpKKjhvbDDJNx_5dty4xST-RWD3/view?usp=drivesdk">{{ trans('main.cart-btn') }}</a>
 						</div>
 					</div>
@@ -422,7 +438,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<img srcset="/img/catalog2/6.jpg 1x, /img/catalog2/6@2x.jpg 2x" alt="img" class="cart__img" loading="lazy">
 							</picture>
 							<h4 class="cart__ttl">{!! trans('main.cart14') !!}</h4>
-							<img src="/img/video_preview.jpg" alt="video" class="cart__video" loading="lazy">
+							
 							<a href="#modal3" class="cart__btn fancybox" data-link="https://drive.google.com/file/d/1w9jBPPpKKjhvbDDJNx_5dty4xST-RWD3/view?usp=drivesdk">{{ trans('main.cart-btn') }}</a>
 						</div>
 					</div>
@@ -433,7 +449,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<img srcset="/img/catalog2/7.jpg 1x, /img/catalog2/7@2x.jpg 2x" alt="img" class="cart__img" loading="lazy">
 							</picture>
 							<h4 class="cart__ttl">{!! trans('main.cart15') !!}</h4>
-							<img src="/img/video_preview.jpg" alt="video" class="cart__video" loading="lazy">
+							
 							<a href="#modal3" class="cart__btn fancybox" data-link="https://drive.google.com/file/d/1w9jBPPpKKjhvbDDJNx_5dty4xST-RWD3/view?usp=drivesdk">{{ trans('main.cart-btn') }}</a>
 						</div>
 					</div>
@@ -444,7 +460,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<img srcset="/img/catalog2/8.jpg 1x, /img/catalog2/8@2x.jpg 2x" alt="img" class="cart__img" loading="lazy">
 							</picture>
 							<h4 class="cart__ttl">{!! trans('main.cart16') !!}</h4>
-							<img src="/img/video_preview.jpg" alt="video" class="cart__video" loading="lazy">
+							
 							<a href="#modal3" class="cart__btn fancybox" data-link="https://drive.google.com/file/d/1w9jBPPpKKjhvbDDJNx_5dty4xST-RWD3/view?usp=drivesdk">{{ trans('main.cart-btn') }}</a>
 						</div>
 					</div>
@@ -455,7 +471,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<img srcset="/img/catalog2/9.jpg 1x, /img/catalog2/9@2x.jpg 2x" alt="img" class="cart__img" loading="lazy">
 							</picture>
 							<h4 class="cart__ttl">{!! trans('main.cart17') !!}</h4>
-							<img src="/img/video_preview.jpg" alt="video" class="cart__video" loading="lazy">
+							
 							<a href="#modal3" class="cart__btn fancybox" data-link="https://drive.google.com/file/d/1w9jBPPpKKjhvbDDJNx_5dty4xST-RWD3/view?usp=drivesdk">{{ trans('main.cart-btn') }}</a>
 						</div>
 					</div>
